@@ -53,8 +53,8 @@ function Carro(marca, rival) {
         Carro.call(this, marca, rival)
     }
 
-const camaro = new Modelo("Chevrolet", "Camaro Z/28", 1967, "Mustang", "V8")
-const mustang = new Concorrente("Ford", "Boss 429", 1969, "Camaro", "V8")
+const camaro = new Modelo("Chevrolet", "Camaro Z/28", 1967, "Camaro", "V8")
+const mustang = new Concorrente("Ford", "Boss 429", 1969, "Mustang", "V8")
 
 camaro.dizOi()
 camaro.dizModelo()
